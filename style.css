@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Mochiy+Pop+One&display=swap');
+*{
+    box-sizing: border-box;   
+}
+body{
+    background-color: rgba(224, 224, 214, 0.993);
+    background-image: url(./kwanzaa.jpg); 
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-height: 150vh;
+    background-position: center center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(71, 68, 68);
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.maincontainer{
+  
+    text-align: center ;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 37rem;
+    margin-top: -3rem;
+    text-transform: capitalize;
+    
+
+}
+h1{
+    font-size: 3rem;
+}
+.big-text{
+    font-size:3rem ;
+    font-weight: bold;
+    line-height: 2.5;
+    margin: 0 1rem 0 0.5rem;
+}
+@media screen and (Max-width: 499px){ 
+    body{
+        background-color: rgba(224, 224, 214, 0.993);
+        background-image: url(./kwanzaa.jpg); 
+        background-size:contain;
+        background-repeat: no-repeat;
+        min-height: 50vh;
+        background-position: center center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        color: rgb(71, 68, 68);
+        font-family: 'Mochiy Pop One', sans-serif;
+    }
+    .maincontainer{
+  
+        text-align: center ;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 24rem;
+        margin-top: -2rem;
+        text-transform: capitalize;
+        
+    
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .big-text{
+        font-size:1.5rem ;
+        font-weight: bold;
+        line-height: 2.8;
+        margin: 0 1rem 0 0.5rem;
+    }
+}
